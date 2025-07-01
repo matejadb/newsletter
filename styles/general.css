@@ -1,0 +1,102 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+	-FONT SIZE SYSTEM (px):
+   12 / 16 / 40 / 56
+  -FONT WEIGHTS:
+   400
+   700
+
+  -LINE HEIGHTS:
+   Default: 1
+   Medium: 1.5   
+
+--- 02 COLOURS
+   Primary: 
+    --red: #ff6155
+		
+   Neutral: 
+    --blue-800: hsl(234, 29%, 20%)
+    --blue-700: hsl(235, 18%, 26%)
+    --grey: hsl(0, 0%,58%)
+    --white: hsl(0, 0%, 100%)
+   
+   Gradients:
+    --gradient: linear-gradient(#ff6a3a, #ff527b);
+    --- 06 BORDER-RADIUS (px)
+  
+
+--- 07 WHITESPACE
+  -SPACING SYSTEM (px):
+   8 / 16 / 24 / 32 / 40 / 48 / 64 / 72 / 104
+*/
+
+/* CSS RESET */
+
+:root {
+	--red: #ff6155;
+
+	--blue-800: hsl(234, 29%, 20%);
+	--blue-700: hsl(235, 18%, 26%);
+	--grey: hsl(0, 0%, 58%);
+	--white: hsl(0, 0%, 100%);
+
+	--gradient: linear-gradient(to right, #ff6a3a, #ff527b);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--blue-700);
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+h1 {
+	font-size: 5.6rem;
+	font-weight: 700;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.list-item {
+	display: flex;
+	gap: 1.6rem;
+}
+
+.preset-2 {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.preset-2--regular {
+	font-weight: 400;
+}
+
+.preset-2--bold {
+	font-weight: 700;
+}
+
+.preset-3--bold {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight: 700;
+}

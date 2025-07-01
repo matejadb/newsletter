@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+		<title>
+			Frontend Mentor | Newsletter sign-up form with success message
+		</title>
+	</head>
+	<body>
+    <main>
+      <section class="section-newsletter">
+        <div class="content">
+          <h1>Stay updated!</h1>
+          <p class="preset-2 preset-2--regular">Join 60,000+ product managers receiving monthly updates on:</p>
+
+          <ul class="list">
+            <li class="list-item">
+              <img src="./assets/images/icon-list.svg" alt="Checkmark icon"> 
+              <span class="preset-2 preset-2--regular">Product discovery and building what matters</span>
+            </li>
+
+            <li class="list-item">
+              <img src="./assets/images/icon-list.svg" alt="Checkmark icon"> 
+              <span class="preset-2 preset-2--regular">Measuring to ensure updates are a success</span>
+            </li>
+
+            <li class="list-item">
+              <img src="./assets/images/icon-list.svg" alt="Checkmark icon"> 
+              <span class="preset-2 preset-2--regular">And much more!</span>
+            </li>
+          </ul>
+
+          <form>
+            <div class="email-field">
+              <label class="preset-3--bold" for="mail">Email address</label>
+              <input class="preset-2 preset-2--regular" type="email" id="mail" name="mail" placeholder="email@company.com">
+            </div>
+            <button class="btn-submit preset-2 preset-2--bold" type="submit"><span>Subscribe to monthly newsletter</span></button>
+          </form>
+        </div>
+
+        <div class="image">
+         <picture>
+							<!-- <source
+								media="(max-width:544px)"
+								srcset="./assets/images/illustration-sign-up-mobile.svg"
+							/>
+							<source
+								media="(max-width:976px)"
+								srcset="./assets/images/illustration-sign-up-tablet.svg"
+							/> -->
+							<img
+								src="./assets/images/illustration-sign-up-desktop.svg"
+								alt="Illustration of a program"
+							/>
+						</picture>
+        </div>
+      </section>
+    </main>
+		<footer class="attribution">
+			<p class="preset-2 preset-2--regular">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>
+					Frontend Mentor
+        </a>. Coded by <a href="https://github.com/matejadb" target="_blank">@matejadb</a>.
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+/*   Tablets    */
+/*  Below 832px */
+
+@media (max-width: 52em) {
+	.section-newsletter {
+		padding: 4rem;
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+
+	.image {
+		grid-row: 1 / 2;
+	}
+
+	.content {
+		max-width: 100%;
+		gap: 2.4rem;
+	}
+
+	.email-field {
+		margin-bottom: 1.6rem;
+	}
+
+	.btn-submit {
+		width: 100%;
+	}
+}
+
+/*   Phones     */
+/*  Below 448px */
+
+@media (max-width: 28em) {
+	.section-newsletter {
+		padding: 0;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	.content {
+		padding: 0 1.6rem 3.2rem 1.6rem;
+	}
+
+	.btn-submit {
+		padding: 1.6rem 4.8rem;
+	}
+}

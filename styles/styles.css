@@ -33,33 +33,17 @@
 }
 
 .btn-submit {
-	position: relative;
-	overflow: hidden;
 	background-color: var(--blue-800);
 	color: var(--white);
 	border-radius: 8px;
 	border: none;
-	padding: 1.6rem 6.2rem;
+	padding: 1.6rem 7.2rem;
+	width: 100%;
+}
+
+.btn-submit:hover {
 	cursor: pointer;
-}
-
-.btn-submit::before {
-	content: '';
-	position: absolute;
-	inset: 0;
 	background: var(--gradient);
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
-	z-index: 0;
-}
-
-.btn-submit:hover::before {
-	opacity: 1;
-}
-
-.btn-submit span {
-	position: relative;
-	z-index: 1;
 }
 
 .image img {

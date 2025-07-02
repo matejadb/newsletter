@@ -49,4 +49,4 @@ Users should be able to:
 ## Author
 
 - Github - [@matejadb](https://github.com/matejadb)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/matejadb)
+- Frontend Mentor - [@matejadb](https://www.frontendmentor.io/profile/matejadb)

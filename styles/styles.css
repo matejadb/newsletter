@@ -1,14 +1,13 @@
 /* SECTION NEWSLETTER */
 
 .section-newsletter {
-	display: none;
 	margin: 0 auto;
 	padding: 3.2rem;
 	max-width: 90.4rem;
 	border-radius: 36px;
 	background-color: var(--white);
 
-	/* display: grid; */
+	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1.6rem;
 }
@@ -58,12 +57,12 @@
 /* SECTION SUCCESS */
 
 .section-success {
+	display: none;
 	background-color: var(--white);
 	padding: 6.4rem;
 	margin: 0 auto;
 	max-width: 50.5rem;
 	border-radius: 3.6rem;
-	display: flex;
 	flex-direction: column;
 	gap: 3.2rem;
 }

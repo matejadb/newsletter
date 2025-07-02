@@ -43,4 +43,11 @@
 	.btn-submit {
 		padding: 1.6rem 3.8rem;
 	}
+
+	.section-success {
+		height: 100vh;
+		border-radius: 0;
+		padding: 2.4rem;
+		justify-content: space-evenly;
+	}
 }
